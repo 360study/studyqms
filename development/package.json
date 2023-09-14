@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron-builder": "^22.0.0"
+  }
+}

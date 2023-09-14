@@ -1,0 +1,13 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "json-server --watch db.json",
+    "dev-ohms": "json-server --watch ohms.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
