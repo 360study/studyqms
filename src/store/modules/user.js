@@ -45,7 +45,14 @@ const actions = {
     commit('setPermissions', permissions)
   },
   async login({ commit }, userInfo) {
-    const { data } = await login(userInfo)
+    console.log("userInfo");
+    console.log(userInfo);
+    const { data } = await login(userInfo);
+    console.log("data");
+    dd;
+
+    eee;
+    console.log(data);
     const accessToken = data[tokenName]
     if (accessToken) {
       commit('setAccessToken', accessToken)

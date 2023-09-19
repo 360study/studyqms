@@ -141,8 +141,8 @@
       document.body.style.overflow = 'auto'
     },
     mounted() {
-      this.form.username = 'admin'
-      this.form.password = '123456'
+      this.form.username = 'bruno'
+      this.form.password = 'brunobruno'
       setTimeout(() => {
         this.handleLogin()
       }, 3000)

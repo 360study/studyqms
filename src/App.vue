@@ -1,9 +1,5 @@
 <template>
   <div id="app">
-    asdfasdfsdf
- 45454545
- <i class="fa fa-camera-retro"></i>
-
     <router-view />
   </div>
 </template>
