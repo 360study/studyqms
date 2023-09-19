@@ -49,9 +49,6 @@ const actions = {
     console.log(userInfo);
     const { data } = await login(userInfo);
     console.log("data");
-    dd;
-
-    eee;
     console.log(data);
     const accessToken = data[tokenName]
     if (accessToken) {

@@ -143,9 +143,7 @@
     mounted() {
       this.form.username = 'bruno'
       this.form.password = 'brunobruno'
-      setTimeout(() => {
-        this.handleLogin()
-      }, 3000)
+
     },
     methods: {
       handlePassword() {

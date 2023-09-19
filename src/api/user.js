@@ -10,15 +10,13 @@ export async function login(data) {
   //   data = await encryptedData(data)
   // }
 
-  const dd = await axios.post("http://localhost:3000/login", data);
-  // const dd = await request({
-  //   url: "/login",
-  //   method: "post",
-  //   data: data,
-  // });
-
-  console.log("dd");
-  console.log(dd);
+  //return await axios.post("http://localhost:3000/login", data);
+  
+  let dd = await request({
+    url: "/login?timestamp=" + Date.now(),
+    method: "post",
+    data,
+  });
   return dd;
 }
 

@@ -40,9 +40,4 @@ export const routes = [
 const router = new VueRouter({
   routes: routes,
 });
-
-export function resetRouter() {
-  location.reload();
-}
-
 export default router;
