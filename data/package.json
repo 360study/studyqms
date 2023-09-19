@@ -1,13 +1,25 @@
 {
-  "name": "data",
+  "name": "custom-json-server",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "json-server --watch db.json",
-    "dev-ohms": "json-server --watch ohms.json"
+  "description": "Custom json-server",
+  "main": "server.js",
+  "dependencies": {
+    "json-server": "^0.12.1",
+    "json-server-auth": "^2.1.0",
+    "passport": "^0.2.2",
+    "passport-http": "^0.3.0"
   },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "devDependencies": {
+    "json-server": "^0.12.1"
+  },
+  "scripts": {
+    "serve": "node server.js --watch ./json/db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json",
+    "api"
+  ],
+  "author": "M. Dresdner",
+  "license": "MIT"
 }
