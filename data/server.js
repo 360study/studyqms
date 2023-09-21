@@ -10,10 +10,12 @@ const cors = require("cors");
 server.use(cors());
 //const path = require("path");
 //const router = jsonServer.router(path.join(__dirname, "./db.json"));
-const dataRouter = jsonServer.router("./db.json");
-const userRouter = jsonServer.router("./user.json");
+const qms_dataRouter = jsonServer.router("./db/qms.json");
+const ohms_dataRouter = jsonServer.router("./db/ohms.json");
+const fuwu_dataRouter = jsonServer.router("./db/fuwu.json");
+const userRouter = jsonServer.router("./db/user.json");
 const configRouter = jsonServer.router("./config.json");
-let userdb = JSON.parse(fs.readFileSync("./user.json", "utf-8"));
+let userdb = JSON.parse(fs.readFileSync("./db/user.json", "utf-8"));
 const middlewares = jsonServer.defaults();
 
 var passport = require("passport"); // <1>
@@ -74,7 +76,10 @@ server.get(
     res.json({ username: req.user.username, email: req.user.emails[0].value });
   }
 );
-
+// http localhost:3000/wines
+server.use("/qms", qms_dataRouter); ///可以加载多个数据源，只要路径不冲突即可
+server.use("/ohms", ohms_dataRouter); ///可以加载多个数据源，只要路径不冲突即可
+server.use("/fuwu", fuwu_dataRouter); ///可以加载多个数据源，只要路径不冲突即可
 //server.use(middlewares);
 server.post("/login", (req, res) => {
   console.log("req");
@@ -93,9 +98,27 @@ server.post("/login", (req, res) => {
   // console.log({ access_token });
   // res.redirect("/product/products");
 });
-// http localhost:3000/wines
-// server.use("/product", dataRouter); ///可以加载多个数据源，只要路径不冲突即可
-// server.use("/users", userRouter);
+server.use(/^(?!\/login).*$/, (req, res, next) => {
+  if (
+    req.headers.authorization === undefined ||
+    req.headers.authorization.split(" ")[0] !== "Bearer"
+  ) {
+    const status = 401;
+    const message = "Bad authorization header";
+    res.status(status).json({ status, message });
+    return;
+  }
+  try {
+    verifyToken(req.headers.authorization.split(" ")[1]);
+    next();
+  } catch (err) {
+    const status = 401;
+    const message = "Error: access_token is not valid";
+    res.status(status).json({ status, message });
+  }
+});
+
+server.use("/users", userRouter);
 // server.use("/", configRouter);
 
 server.listen(3000, () => {

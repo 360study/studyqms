@@ -29,9 +29,11 @@ const mutations = {
   setAccessToken(state, accessToken) {
     state.accessToken = accessToken
     setAccessToken(accessToken)
+    localStorage.setItem('accessToken', accessToken)
   },
   setUsername(state, username) {
     state.username = username
+    localStorage.setItem('userName', username)
   },
   setAvatar(state, avatar) {
     state.avatar = avatar
@@ -53,6 +55,7 @@ const actions = {
     const accessToken = data[tokenName]
     if (accessToken) {
       commit('setAccessToken', accessToken)
+      commit('setUsername',userInfo.username)
       const hour = new Date().getHours()
       const thisTime =
         hour < 8
@@ -72,6 +75,8 @@ const actions = {
       )
     }
   },
+
+  //获取user权限
   async getUserInfo({ commit, state }) {
     const { data } = await getUserInfo(state.accessToken)
     if (!data) {
@@ -89,13 +94,15 @@ const actions = {
       return false
     }
   },
+  //退出
   async logout({ dispatch }) {
-    await logout(state.accessToken)
+    //await logout(state.accessToken)
     await dispatch('resetAccessToken')
     await resetRouter()
   },
   resetAccessToken({ commit }) {
     commit('setPermissions', [])
+    commit('setUsername', '')
     commit('setAccessToken', '')
     removeAccessToken()
   },

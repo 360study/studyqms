@@ -1,5 +1,5 @@
 {
-  "qms": [
+  "timu": [
     {
       "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
       "id": "20190503190018-e96e3239-58c7-40ad-8634-cc59f2217875",
@@ -35316,11 +35316,17 @@
       "seqVal": 93,
       "load": true,
       "index": 91,
-      "answerRightFlag": 0,
-      "answerScore": [],
+      "answerRightFlag": 1,
+      "answerScore": [
+        "A",
+        "B",
+        "C"
+      ],
       "showUserAnswer": true,
       "openAnalysis": null,
-      "okAnswer": false
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
     },
     {
       "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
@@ -35375,11 +35381,17 @@
       "seqVal": 94,
       "load": true,
       "index": 92,
-      "answerRightFlag": 0,
-      "answerScore": [],
+      "answerRightFlag": 1,
+      "answerScore": [
+        "A",
+        "B",
+        "C"
+      ],
       "showUserAnswer": true,
       "openAnalysis": null,
-      "okAnswer": false
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
     },
     {
       "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
@@ -35434,11 +35446,16 @@
       "seqVal": 99,
       "load": true,
       "index": 97,
-      "answerRightFlag": 0,
-      "answerScore": [],
+      "answerRightFlag": 1,
+      "answerScore": [
+        "A",
+        "B"
+      ],
       "showUserAnswer": true,
       "openAnalysis": null,
-      "okAnswer": false
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
     },
     {
       "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
@@ -35737,11 +35754,16 @@
       "seqVal": 57,
       "load": true,
       "index": 56,
-      "answerRightFlag": 0,
-      "answerScore": [],
+      "answerRightFlag": 1,
+      "answerScore": [
+        "A",
+        "B"
+      ],
       "showUserAnswer": true,
       "openAnalysis": null,
-      "okAnswer": false
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
     },
     {
       "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
@@ -35857,11 +35879,16 @@
       "seqVal": 52,
       "load": true,
       "index": 51,
-      "answerRightFlag": 0,
-      "answerScore": [],
+      "answerRightFlag": 2,
+      "answerScore": [
+        "C",
+        "D"
+      ],
       "showUserAnswer": true,
       "openAnalysis": null,
-      "okAnswer": false
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
     },
     {
       "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
@@ -54102,6 +54129,9 @@
       "okAnswer": true,
       "children": [],
       "_X_ROW_CHILD": []
+    },
+    {
+      "id": "bQKqUCz"
     }
   ],
   "wrongs": [
@@ -54151,7 +54181,7 @@
         "name": "单项选择题"
       },
       "collectFlag": "",
-      "userAnswer": "B",
+      "userAnswer": "D",
       "answertype": null,
       "rightFlag": 0,
       "logId": null,
@@ -64986,6 +65016,2037 @@
       "answerScore": [
         "A",
         "B",
+        "D"
+      ],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20210305103808-ee0e41a9-c10d-4eb2-b8ba-e1f4a977193c",
+      "questionTypeId": "jichu7",
+      "analysis": "",
+      "stem": "以下各项中，属于运行图的有（    ）。",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "1614911305323-c078f5cd-896f-45a2-983c-9cb38bb9966e",
+      "answer": "[{\"option\":\"A\",\"content\":\"排列图\",\"rightFlag\":\"0\"},{\"option\":\"B\",\"content\":\"P图\",\"rightFlag\":\"1\"},{\"option\":\"C\",\"content\":\"直方图\",\"rightFlag\":\"0\"},{\"option\":\"D\",\"content\":\"单值移动极差图\",\"rightFlag\":\"1\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "排列图",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "P图",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "直方图",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "单值移动极差图",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "1",
+        "name": "多项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": null,
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 52,
+      "load": true,
+      "index": 51,
+      "answerRightFlag": 2,
+      "answerScore": [
+        "C",
+        "D"
+      ],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185943-cf80ee37-f8b3-49cb-97fd-420438de1c69",
+      "questionTypeId": "jichu4",
+      "analysis": "样本大小n，合格判定数AC，不合格判定数Re",
+      "stem": "GB/T2828.1的抽样方案由下列哪些要素构成？（）",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182159-2dd2dab9-8aca-4eee-8a64-53f5a6ec2e6c",
+      "answer": "[{\"option\":\"A\",\"content\":\"n\",\"rightFlag\":\"1\"},{\"option\":\"B\",\"content\":\"Ac\",\"rightFlag\":\"1\"},{\"option\":\"C\",\"content\":\"Re\",\"rightFlag\":\"1\"},{\"option\":\"D\",\"content\":\"d\",\"rightFlag\":\"0\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "n",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "Ac",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "Re",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "d",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "1",
+        "name": "多项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": null,
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 69,
+      "load": true,
+      "index": 68,
+      "answerRightFlag": 2,
+      "answerScore": [
+        "A",
+        "C",
+        "D"
+      ],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185943-29729ca8-258f-4b3e-84e6-8b315a9b9575",
+      "questionTypeId": "jichu4",
+      "analysis": "GB/T2828.1标准为计数抽样检验。此标准的术语和部分相关符号：Ac接收数、Re拒收数、AQL接收质量限（以不合格品百分数或每百单位产品不合格数表示），N批量、n样本量、p过程平均。没有A选项和C选项。B选项是正确的。D检验水平：标志着检验量，反映了批量N和样本量n之间的关系。对于一般的使用，标准在其表中给出了I、II、m三个检验水平，无特殊要求时，均采用II水平。当要求的鉴别力比较低时，可使用I水平；当耍求比较高时，可使用III水平。是标准的基础抽样方案。所以D选项也是要选的。",
+      "stem": "在GB/T2828.1抽样方案中，对使用方风险影响较大的检索要素是（）",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182159-2dd2dab9-8aca-4eee-8a64-53f5a6ec2e6c",
+      "answer": "[{\"option\":\"A\",\"content\":\"使用方风险β\",\"rightFlag\":\"0\"},{\"option\":\"B\",\"content\":\"AQL\",\"rightFlag\":\"1\"},{\"option\":\"C\",\"content\":\"LQ\",\"rightFlag\":\"0\"},{\"option\":\"D\",\"content\":\"检验水平\",\"rightFlag\":\"1\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "使用方风险β",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "AQL",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "LQ",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "检验水平",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "1",
+        "name": "多项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": null,
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 70,
+      "load": true,
+      "index": 69,
+      "answerRightFlag": 2,
+      "answerScore": [
+        "A",
+        "C",
+        "D"
+      ],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185943-62087c5f-1300-42e0-96d7-cc3c7a622792",
+      "questionTypeId": "jichu4",
+      "analysis": "",
+      "stem": "以下描述正确的有（）。",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182159-2dd2dab9-8aca-4eee-8a64-53f5a6ec2e6c",
+      "answer": "[{\"option\":\"A\",\"content\":\"抽样检验存在风险\",\"rightFlag\":\"1\"},{\"option\":\"B\",\"content\":\"抽样可分为“验收抽样”和“调查抽样”\",\"rightFlag\":\"1\"},{\"option\":\"C\",\"content\":\"对于破坏性检验，可进行抽样检验\",\"rightFlag\":\"1\"},{\"option\":\"D\",\"content\":\"百分比抽样不合理\",\"rightFlag\":\"1\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "抽样检验存在风险",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "抽样可分为“验收抽样”和“调查抽样”",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "对于破坏性检验，可进行抽样检验",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "百分比抽样不合理",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "1",
+        "name": "多项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": null,
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 71,
+      "load": true,
+      "index": 70,
+      "answerRightFlag": 2,
+      "answerScore": [
+        "A",
+        "C"
+      ],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185943-892ebc75-9430-439d-ac01-f6fa9b5b0d29",
+      "questionTypeId": "jichu4",
+      "analysis": "",
+      "stem": "对工业产品的（）或者安全、卫生要求需要统一的技术要求，应当制定标准。",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182159-2dd2dab9-8aca-4eee-8a64-53f5a6ec2e6c",
+      "answer": "[{\"option\":\"A\",\"content\":\"品种\",\"rightFlag\":\"1\"},{\"option\":\"B\",\"content\":\"规格\",\"rightFlag\":\"1\"},{\"option\":\"C\",\"content\":\"质量\",\"rightFlag\":\"1\"},{\"option\":\"D\",\"content\":\"等级\",\"rightFlag\":\"1\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "品种",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "规格",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "质量",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "等级",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "1",
+        "name": "多项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": null,
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 72,
+      "load": true,
+      "index": 71,
+      "answerRightFlag": 2,
+      "answerScore": [
+        "C",
+        "D"
+      ],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185943-12564942-176a-4509-98b4-904411fb1be3",
+      "questionTypeId": "jichu4",
+      "analysis": "",
+      "stem": "以下哪些不包括在《中华人民共和国产品质量法》中所称的“产品”范围内？（）",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182159-2dd2dab9-8aca-4eee-8a64-53f5a6ec2e6c",
+      "answer": "[{\"option\":\"A\",\"content\":\"建筑材料、建筑构配件和设备\",\"rightFlag\":\"0\"},{\"option\":\"B\",\"content\":\"宾馆的服务\",\"rightFlag\":\"1\"},{\"option\":\"C\",\"content\":\"建设工程\",\"rightFlag\":\"1\"},{\"option\":\"D\",\"content\":\"计算机游戏软件\",\"rightFlag\":\"0\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "建筑材料、建筑构配件和设备",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "宾馆的服务",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "建设工程",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "计算机游戏软件",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "1",
+        "name": "多项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": null,
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 77,
+      "load": true,
+      "index": 76,
+      "answerRightFlag": 2,
+      "answerScore": [
+        "A",
+        "C"
+      ],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185943-decff206-8c13-4678-a286-b74779f5cba4",
+      "questionTypeId": "jichu4",
+      "analysis": "",
+      "stem": "根据《产品质量法》，以下（）是错误的。",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182159-2dd2dab9-8aca-4eee-8a64-53f5a6ec2e6c",
+      "answer": "[{\"option\":\"A\",\"content\":\"国家根据国际通用的质量管理标准，推行企业质量体系认证制度\",\"rightFlag\":\"0\"},{\"option\":\"B\",\"content\":\"国家参照国际先进的产品标准和技术要求，强制实行所有产品的产品质量认证制度\",\"rightFlag\":\"1\"},{\"option\":\"C\",\"content\":\"国家监督抽查的产品，地方可以另行重复抽查；上级监督抽查的产品，下级可以另行重复抽查\",\"rightFlag\":\"1\"},{\"option\":\"D\",\"content\":\"对依法进行的产品质量监督检查，生产者、销售者不得拒绝\",\"rightFlag\":\"0\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "国家根据国际通用的质量管理标准，推行企业质量体系认证制度",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "国家参照国际先进的产品标准和技术要求，强制实行所有产品的产品质量认证制度",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "国家监督抽查的产品，地方可以另行重复抽查；上级监督抽查的产品，下级可以另行重复抽查",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "对依法进行的产品质量监督检查，生产者、销售者不得拒绝",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "1",
+        "name": "多项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": null,
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 79,
+      "load": true,
+      "index": 78,
+      "answerRightFlag": 2,
+      "answerScore": [
+        "A",
+        "B"
+      ],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185943-9c40fd0b-eccb-4333-b5f3-31861b592657",
+      "questionTypeId": "jichu4",
+      "analysis": "",
+      "stem": "产品或者包装上的标识必须符合（）要求。",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182159-2dd2dab9-8aca-4eee-8a64-53f5a6ec2e6c",
+      "answer": "[{\"option\":\"A\",\"content\":\"生产日期、保质曰期\",\"rightFlag\":\"1\"},{\"option\":\"B\",\"content\":\"有产品质量检验合格证明\",\"rightFlag\":\"1\"},{\"option\":\"C\",\"content\":\"产品名称、厂名和厂址\",\"rightFlag\":\"1\"},{\"option\":\"D\",\"content\":\"产品规格、等级\",\"rightFlag\":\"1\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "生产日期、保质曰期",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "有产品质量检验合格证明",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "产品名称、厂名和厂址",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "产品规格、等级",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "1",
+        "name": "多项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": null,
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 80,
+      "load": true,
+      "index": 79,
+      "answerRightFlag": 2,
+      "answerScore": [
+        "A",
+        "B",
+        "C"
+      ],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185943-744d2c7b-fe60-4865-98e9-93980042d76b",
+      "questionTypeId": "jichu4",
+      "analysis": "不是所有的不符合都需要验证其有效性才能做出认证决定，对于一般不符合可以只列出整改计划。<br/><br/>",
+      "stem": "依据CNAS-CC01,认证机构在做出决定前应确认（）。",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182159-2dd2dab9-8aca-4eee-8a64-53f5a6ec2e6c",
+      "answer": "[{\"option\":\"A\",\"content\":\"审核组提供的信息足以确定认证要求的满足情况\",\"rightFlag\":\"1\"},{\"option\":\"B\",\"content\":\"审核组提供的信息足以确定认证范围\",\"rightFlag\":\"1\"},{\"option\":\"C\",\"content\":\"对于所有反映的不符合，认证机构已评审、接受\",\"rightFlag\":\"1\"},{\"option\":\"D\",\"content\":\"对于所有反映的不符合，认证机构己证实了纠正和纠正措施的有效性\",\"rightFlag\":\"0\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "审核组提供的信息足以确定认证要求的满足情况",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "审核组提供的信息足以确定认证范围",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "对于所有反映的不符合，认证机构已评审、接受",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "对于所有反映的不符合，认证机构己证实了纠正和纠正措施的有效性",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "1",
+        "name": "多项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": null,
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 81,
+      "load": true,
+      "index": 80,
+      "answerRightFlag": 2,
+      "answerScore": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185943-39b34771-d645-4d5a-b523-7b3c3c7488ad",
+      "questionTypeId": "jichu4",
+      "analysis": "监督活动应包括对获证客户管理体系满足认证标准规定要求情况的现场审核。监督活动还可以包括：\na) 认证机构就认证的有关方面询问获证客户；\nb) 审查获证客户对其运作的说明（如宣传材料、网页）；\nc) 要求获证客户提供文件化信息（纸质或电子介质）；\nd) 其他监视获证客户绩效的方法。",
+      "stem": "依据CNAS-CC01监督活动可以包括（）。",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182159-2dd2dab9-8aca-4eee-8a64-53f5a6ec2e6c",
+      "answer": "[{\"option\":\"A\",\"content\":\"认证机构就认证的有关方面询问获证客户\",\"rightFlag\":\"1\"},{\"option\":\"B\",\"content\":\"例行产品检验\",\"rightFlag\":\"0\"},{\"option\":\"C\",\"content\":\"要求获证客户提供文件和记录\",\"rightFlag\":\"1\"},{\"option\":\"D\",\"content\":\"监督审核\",\"rightFlag\":\"1\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "认证机构就认证的有关方面询问获证客户",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "例行产品检验",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "要求获证客户提供文件和记录",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "监督审核",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "1",
+        "name": "多项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": null,
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 82,
+      "load": true,
+      "index": 81,
+      "answerRightFlag": 2,
+      "answerScore": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185943-e85257a6-b1a0-4cd7-bdc9-eeb96967fa0c",
+      "questionTypeId": "jichu4",
+      "analysis": "<br />",
+      "stem": "依据GB/T19001-2013标准，当获得的审核证据表明不能达到审核目标时，可以采取的措施包括（）。",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182159-2dd2dab9-8aca-4eee-8a64-53f5a6ec2e6c",
+      "answer": "[{\"option\":\"A\",\"content\":\"修改审核计划\",\"rightFlag\":\"1\"},{\"option\":\"B\",\"content\":\"改变审核目标和审核范围\",\"rightFlag\":\"1\"},{\"option\":\"C\",\"content\":\"继续按计划审核\",\"rightFlag\":\"0\"},{\"option\":\"D\",\"content\":\"终止审核\",\"rightFlag\":\"1\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "修改审核计划",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "改变审核目标和审核范围",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "继续按计划审核",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "终止审核",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "1",
+        "name": "多项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": null,
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 83,
+      "load": true,
+      "index": 82,
+      "answerRightFlag": 2,
+      "answerScore": [
+        "A",
+        "D"
+      ],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185932-f7cdc2ae-5079-46b6-a87e-a011d16a0a34",
+      "questionTypeId": "jichu3",
+      "analysis": "<br /><br />",
+      "stem": "过程的结果是输出。组织的输出是产品还是服务，取决于其主要（）。",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182144-4cb0c0d4-a57d-44dd-887f-2d8da2153cba",
+      "answer": "[{\"option\":\"A\",\"content\":\"功能\",\"rightFlag\":\"0\"},{\"option\":\"B\",\"content\":\"性质\",\"rightFlag\":\"0\"},{\"option\":\"C\",\"content\":\"特性\",\"rightFlag\":\"1\"},{\"option\":\"D\",\"content\":\"要求\",\"rightFlag\":\"0\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "功能",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "性质",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "特性",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "要求",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "0",
+        "name": "单项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": "A",
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 4,
+      "load": true,
+      "index": 3,
+      "answerRightFlag": 2,
+      "answerScore": [],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185933-75e831be-51a6-45dd-ac61-92c2f7fde119",
+      "questionTypeId": "jichu3",
+      "analysis": "组织应保持有关质量目标的成文信息",
+      "stem": "针对组织建立质量目标的过程，表述不正确的是（）",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182144-4cb0c0d4-a57d-44dd-887f-2d8da2153cba",
+      "answer": "[{\"option\":\"A\",\"content\":\"考虑适用的要求，与质量方针保持一致\",\"rightFlag\":\"0\"},{\"option\":\"B\",\"content\":\"可测量、予以监视，予以沟通，适时更新\",\"rightFlag\":\"0\"},{\"option\":\"C\",\"content\":\"必要时，保留质量目标的文件化信息\",\"rightFlag\":\"1\"},{\"option\":\"D\",\"content\":\"与产品和服务的符合性相关，与提供顾客满意度相关\",\"rightFlag\":\"0\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "考虑适用的要求，与质量方针保持一致",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "可测量、予以监视，予以沟通，适时更新",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "必要时，保留质量目标的文件化信息",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "与产品和服务的符合性相关，与提供顾客满意度相关",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "0",
+        "name": "单项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": "D",
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 38,
+      "load": true,
+      "index": 37,
+      "answerRightFlag": 2,
+      "answerScore": [],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185933-68270e9c-daad-403d-a2ba-346335bcc7f0",
+      "questionTypeId": "jichu3",
+      "analysis": "<br /><br />",
+      "stem": "机遇可能导致新实践、推出新产品、开辟新市场、建立合作伙伴关系、利用新技术和其他可行之处，以应对（）的需求。",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182144-4cb0c0d4-a57d-44dd-887f-2d8da2153cba",
+      "answer": "[{\"option\":\"A\",\"content\":\"组织\",\"rightFlag\":\"0\"},{\"option\":\"B\",\"content\":\"顾客\",\"rightFlag\":\"0\"},{\"option\":\"C\",\"content\":\"组织或其顾客\",\"rightFlag\":\"1\"},{\"option\":\"D\",\"content\":\"组织和其顾客\",\"rightFlag\":\"0\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "组织",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "顾客",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "组织或其顾客",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "组织和其顾客",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "0",
+        "name": "单项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": "B",
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 39,
+      "load": true,
+      "index": 38,
+      "answerRightFlag": 2,
+      "answerScore": [],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185933-b07391c0-8e24-4df8-835b-266cfd7ae806",
+      "questionTypeId": "jichu3",
+      "analysis": "<br /><br />",
+      "stem": "依据GB/T19001-2016标准,在创建和更新成文信息时，组织应确保以下相关事项得到适当的安排，以下正确的是（）。",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182144-4cb0c0d4-a57d-44dd-887f-2d8da2153cba",
+      "answer": "[{\"option\":\"A\",\"content\":\"方针和战略\",\"rightFlag\":\"0\"},{\"option\":\"B\",\"content\":\"形式和载体\",\"rightFlag\":\"1\"},{\"option\":\"C\",\"content\":\"评审和批准，以确保有效性\",\"rightFlag\":\"0\"},{\"option\":\"D\",\"content\":\"存储和防护\",\"rightFlag\":\"0\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "方针和战略",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "形式和载体",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "评审和批准，以确保有效性",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "存储和防护",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "0",
+        "name": "单项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": "C",
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 58,
+      "load": true,
+      "index": 57,
+      "answerRightFlag": 2,
+      "answerScore": [],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185933-bcb0482b-adff-4eb4-85a3-8e79e40570bf",
+      "questionTypeId": "jichu3",
+      "analysis": "7.1.6组织的知识\n组织应该确定必要的知识，以运行过程，并获得合格产品和服务",
+      "stem": "GB/T19001-2016标准中7.1.6组织的知识界定为（）。",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182144-4cb0c0d4-a57d-44dd-887f-2d8da2153cba",
+      "answer": "[{\"option\":\"A\",\"content\":\"组织所有的知识\",\"rightFlag\":\"0\"},{\"option\":\"B\",\"content\":\"组织的知识产权\",\"rightFlag\":\"0\"},{\"option\":\"C\",\"content\":\"仅指工程图样、工艺文件、标准\",\"rightFlag\":\"0\"},{\"option\":\"D\",\"content\":\"获得合格产品和服务中运行过程所需的知识\",\"rightFlag\":\"1\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "组织所有的知识",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "组织的知识产权",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "仅指工程图样、工艺文件、标准",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "获得合格产品和服务中运行过程所需的知识",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "0",
+        "name": "单项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": "A",
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 67,
+      "load": true,
+      "index": 66,
+      "answerRightFlag": 2,
+      "answerScore": [],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185933-5f8865d3-54e0-451c-b85b-a93bca1fe7c2",
+      "questionTypeId": "jichu3",
+      "analysis": "",
+      "stem": "“关于客体的事实”属于下列哪个术语（）。",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182144-4cb0c0d4-a57d-44dd-887f-2d8da2153cba",
+      "answer": "[{\"option\":\"A\",\"content\":\"文件\",\"rightFlag\":\"0\"},{\"option\":\"B\",\"content\":\"信息\",\"rightFlag\":\"0\"},{\"option\":\"C\",\"content\":\"数据\",\"rightFlag\":\"1\"},{\"option\":\"D\",\"content\":\"参数\",\"rightFlag\":\"0\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "文件",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "信息",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "数据",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "参数",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "0",
+        "name": "单项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": "B",
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 80,
+      "load": true,
+      "index": 79,
+      "answerRightFlag": 2,
+      "answerScore": [],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185933-87ae7681-e415-47d0-b803-32f725f0a72a",
+      "questionTypeId": "jichu3",
+      "analysis": "",
+      "stem": "组织应考虑管理评审的分析、评价结果，以及管理评审的输出，确定是否存在持续改进的（）。",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182144-4cb0c0d4-a57d-44dd-887f-2d8da2153cba",
+      "answer": "[{\"option\":\"A\",\"content\":\"时机\",\"rightFlag\":\"0\"},{\"option\":\"B\",\"content\":\"需求\",\"rightFlag\":\"0\"},{\"option\":\"C\",\"content\":\"机会\",\"rightFlag\":\"0\"},{\"option\":\"D\",\"content\":\"B或C\",\"rightFlag\":\"1\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "时机",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "需求",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "机会",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "B或C",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "0",
+        "name": "单项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": "C",
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 82,
+      "load": true,
+      "index": 81,
+      "answerRightFlag": 2,
+      "answerScore": [],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185933-a5216f29-698c-4e39-954e-739c38355ea6",
+      "questionTypeId": "jichu3",
+      "analysis": "<br /><br />",
+      "stem": "管理评审输入中有关质量管理体系绩效和有效性的信息，趋势性信息包括（）。",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182144-4cb0c0d4-a57d-44dd-887f-2d8da2153cba",
+      "answer": "[{\"option\":\"A\",\"content\":\"与质量管理体系相关的内外部因素的变化\",\"rightFlag\":\"0\"},{\"option\":\"B\",\"content\":\"改进的机会\",\"rightFlag\":\"0\"},{\"option\":\"C\",\"content\":\"外部供方的绩效\",\"rightFlag\":\"1\"},{\"option\":\"D\",\"content\":\"资源的充分性\",\"rightFlag\":\"0\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "与质量管理体系相关的内外部因素的变化",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "改进的机会",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "外部供方的绩效",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "资源的充分性",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "0",
+        "name": "单项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": "A",
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 85,
+      "load": true,
+      "index": 84,
+      "answerRightFlag": 2,
+      "answerScore": [],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185933-ade241b2-ffc2-41b0-89b2-39746ed87b75",
+      "questionTypeId": "jichu3",
+      "analysis": "<br /><br />",
+      "stem": "针对术语“产品和服务”，表述不正确是（）",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182144-4cb0c0d4-a57d-44dd-887f-2d8da2153cba",
+      "answer": "[{\"option\":\"A\",\"content\":\"在大多数情况下，“产品和服务”作为单一术语同时使用\",\"rightFlag\":\"0\"},{\"option\":\"B\",\"content\":\"包括所有的输出类别\",\"rightFlag\":\"0\"},{\"option\":\"C\",\"content\":\"包括硬件、服务、软件和流程性材料\",\"rightFlag\":\"0\"},{\"option\":\"D\",\"content\":\"产品和服务不存在差异\",\"rightFlag\":\"1\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "在大多数情况下，“产品和服务”作为单一术语同时使用",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "包括所有的输出类别",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "包括硬件、服务、软件和流程性材料",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "产品和服务不存在差异",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "0",
+        "name": "单项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": "B",
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 103,
+      "load": true,
+      "index": 102,
+      "answerRightFlag": 2,
+      "answerScore": [],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185933-a196376a-6e72-41b9-a68c-db6e2841ba6e",
+      "questionTypeId": "jichu3",
+      "analysis": "<br /><br />",
+      "stem": "依据GB/T19001-2016标准第9章“绩效评价”中“监视、测量、分析和评价”的总则（9.1.1条款），组织应评价质量管理体系的（）。",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182144-4cb0c0d4-a57d-44dd-887f-2d8da2153cba",
+      "answer": "[{\"option\":\"A\",\"content\":\"绩效和有效性\",\"rightFlag\":\"1\"},{\"option\":\"B\",\"content\":\"符合性和有效性\",\"rightFlag\":\"0\"},{\"option\":\"C\",\"content\":\"适宜性、充分性和有效性\",\"rightFlag\":\"0\"},{\"option\":\"D\",\"content\":\"以上全部\",\"rightFlag\":\"0\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "绩效和有效性",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "符合性和有效性",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "适宜性、充分性和有效性",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "以上全部",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "0",
+        "name": "单项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": "D",
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 113,
+      "load": true,
+      "index": 112,
+      "answerRightFlag": 2,
+      "answerScore": [],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185933-ee917ade-7702-49fd-acad-31184cd1f6c1",
+      "questionTypeId": "jichu3",
+      "analysis": "<br /><br />",
+      "stem": "组织的成文信息通常包括（）。",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182144-4cb0c0d4-a57d-44dd-887f-2d8da2153cba",
+      "answer": "[{\"option\":\"A\",\"content\":\"包含质量方针、目标的员工手册\",\"rightFlag\":\"1\"},{\"option\":\"B\",\"content\":\"标准要求成文信息\",\"rightFlag\":\"1\"},{\"option\":\"C\",\"content\":\"国际公约、规范、标准\",\"rightFlag\":\"1\"},{\"option\":\"D\",\"content\":\"电子文档形式的表单\",\"rightFlag\":\"1\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "包含质量方针、目标的员工手册",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "标准要求成文信息",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "国际公约、规范、标准",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "电子文档形式的表单",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "1",
+        "name": "多项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": null,
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 119,
+      "load": true,
+      "index": 118,
+      "answerRightFlag": 2,
+      "answerScore": [
+        "A",
+        "B"
+      ],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185933-cd468758-02d6-45a8-90dd-1b9dc53aa35f",
+      "questionTypeId": "jichu3",
+      "analysis": "",
+      "stem": "下列关于ISO9001与IS09000系列其他标准的关系说法正确的是（）。",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182144-4cb0c0d4-a57d-44dd-887f-2d8da2153cba",
+      "answer": "[{\"option\":\"A\",\"content\":\"IS09000《质量管理体系基础和术语》为正确理解和实施GB/T19001-2016标准提供必要的基础\",\"rightFlag\":\"1\"},{\"option\":\"B\",\"content\":\"IS09004《追求组织的持续成功质量管理方法》为组织选择超出GB/T19001-2016标准要求的质量管理方法提供必要的越础\",\"rightFlag\":\"0\"},{\"option\":\"C\",\"content\":\"IS09000《质量管理体系基础和术语》为正确理解和实施GB/T19001-2016标准提供指南\",\"rightFlag\":\"0\"},{\"option\":\"D\",\"content\":\"IS09004《追求组织的持续成功质量管理方法》为组织选择超出GB/T19001-2016标准的质量管理方法提供指南\",\"rightFlag\":\"1\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "IS09000《质量管理体系基础和术语》为正确理解和实施GB/T19001-2016标准提供必要的基础",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "IS09004《追求组织的持续成功质量管理方法》为组织选择超出GB/T19001-2016标准要求的质量管理方法提供必要的越础",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "IS09000《质量管理体系基础和术语》为正确理解和实施GB/T19001-2016标准提供指南",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "IS09004《追求组织的持续成功质量管理方法》为组织选择超出GB/T19001-2016标准的质量管理方法提供指南",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "1",
+        "name": "多项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": null,
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 122,
+      "load": true,
+      "index": 121,
+      "answerRightFlag": 2,
+      "answerScore": [
+        "A",
+        "B"
+      ],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185933-db07cac5-504d-4af2-a2e7-4e53f74353c3",
+      "questionTypeId": "jichu3",
+      "analysis": "<br /><br />",
+      "stem": "下列哪些是组织的相关方（）。",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182144-4cb0c0d4-a57d-44dd-887f-2d8da2153cba",
+      "answer": "[{\"option\":\"A\",\"content\":\"监管者\",\"rightFlag\":\"1\"},{\"option\":\"B\",\"content\":\"工会\",\"rightFlag\":\"1\"},{\"option\":\"C\",\"content\":\"竞争对手\",\"rightFlag\":\"1\"},{\"option\":\"D\",\"content\":\"相对立的社会群体\",\"rightFlag\":\"1\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "监管者",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "工会",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "竞争对手",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "相对立的社会群体",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "1",
+        "name": "多项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": null,
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 123,
+      "load": true,
+      "index": 122,
+      "answerRightFlag": 2,
+      "answerScore": [
+        "A",
+        "B",
+        "C"
+      ],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185933-47d17849-f31d-436a-a451-9afb1ea7c4aa",
+      "questionTypeId": "jichu3",
+      "analysis": "",
+      "stem": "确定组织的质量管理体系范围时，组织应考虑（）",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182144-4cb0c0d4-a57d-44dd-887f-2d8da2153cba",
+      "answer": "[{\"option\":\"A\",\"content\":\"组织的内部和外部因素\",\"rightFlag\":\"1\"},{\"option\":\"B\",\"content\":\"利益相关方的要求\",\"rightFlag\":\"1\"},{\"option\":\"C\",\"content\":\"组织的产品和服务\",\"rightFlag\":\"1\"},{\"option\":\"D\",\"content\":\"组织对确定管理体系形成文件化信息的选择\",\"rightFlag\":\"0\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "组织的内部和外部因素",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "利益相关方的要求",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "组织的产品和服务",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "组织对确定管理体系形成文件化信息的选择",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "1",
+        "name": "多项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": null,
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 124,
+      "load": true,
+      "index": 123,
+      "answerRightFlag": 2,
+      "answerScore": [
+        "A",
+        "C"
+      ],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185933-de0e1ddb-77ac-4b5b-9869-9b4c5b6cf3da",
+      "questionTypeId": "jichu3",
+      "analysis": "8.7.1组织应根据不合格性质及其对产品和服务符合性的影响采取适当措施。",
+      "stem": "在对不合格进行处理和采取纠正措施后组织应保留有关（）形成文件的信息作为证据。",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182144-4cb0c0d4-a57d-44dd-887f-2d8da2153cba",
+      "answer": "[{\"option\":\"A\",\"content\":\"造成不合格的责任人\",\"rightFlag\":\"0\"},{\"option\":\"B\",\"content\":\"不合格性质\",\"rightFlag\":\"1\"},{\"option\":\"C\",\"content\":\"针对不合格所采取的后续措施\",\"rightFlag\":\"1\"},{\"option\":\"D\",\"content\":\"纠正措施的结果\",\"rightFlag\":\"1\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "造成不合格的责任人",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "不合格性质",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "针对不合格所采取的后续措施",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "纠正措施的结果",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "1",
+        "name": "多项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": null,
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 133,
+      "load": true,
+      "index": 132,
+      "answerRightFlag": 2,
+      "answerScore": [
+        "B",
+        "C"
+      ],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185933-897c058c-19c1-47fe-a774-8ab0650954bf",
+      "questionTypeId": "jichu3",
+      "analysis": "<br /><br />",
+      "stem": "依据GB/T19001-2016标准9.1.3条款，组织应分析和评价来自监视、测量以及其他来源的适当数据和信息，分析的结果应用于评价（）。",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182144-4cb0c0d4-a57d-44dd-887f-2d8da2153cba",
+      "answer": "[{\"option\":\"A\",\"content\":\"顾客满意度\",\"rightFlag\":\"1\"},{\"option\":\"B\",\"content\":\"风险和机会的应对措施的有效性\",\"rightFlag\":\"1\"},{\"option\":\"C\",\"content\":\"外部提供方的绩效\",\"rightFlag\":\"1\"},{\"option\":\"D\",\"content\":\"过程和产品的特性及趋势，包括采取预防措施的机会\",\"rightFlag\":\"0\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "顾客满意度",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "风险和机会的应对措施的有效性",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "外部提供方的绩效",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "过程和产品的特性及趋势，包括采取预防措施的机会",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "1",
+        "name": "多项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": null,
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 135,
+      "load": true,
+      "index": 134,
+      "answerRightFlag": 2,
+      "answerScore": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185933-d1a8c40e-f0ba-4442-800a-3cf101cbc864",
+      "questionTypeId": "jichu3",
+      "analysis": "",
+      "stem": "下列哪些术语是有关结果的术语（）",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182144-4cb0c0d4-a57d-44dd-887f-2d8da2153cba",
+      "answer": "[{\"option\":\"A\",\"content\":\"产品\",\"rightFlag\":\"1\"},{\"option\":\"B\",\"content\":\"风险\",\"rightFlag\":\"1\"},{\"option\":\"C\",\"content\":\"创新\",\"rightFlag\":\"0\"},{\"option\":\"D\",\"content\":\"输出\",\"rightFlag\":\"1\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "产品",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "风险",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "创新",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "输出",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "1",
+        "name": "多项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": null,
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 142,
+      "load": true,
+      "index": 141,
+      "answerRightFlag": 2,
+      "answerScore": [
+        "A",
+        "C",
+        "D"
+      ],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185933-bcd891ab-a9e1-4a91-a233-b3c3c1d5f821",
+      "questionTypeId": "jichu3",
+      "analysis": "",
+      "stem": "下列哪些术语是有关要求的术语（）。",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182144-4cb0c0d4-a57d-44dd-887f-2d8da2153cba",
+      "answer": "[{\"option\":\"A\",\"content\":\"实体\",\"rightFlag\":\"1\"},{\"option\":\"B\",\"content\":\"风险\",\"rightFlag\":\"0\"},{\"option\":\"C\",\"content\":\"创新\",\"rightFlag\":\"1\"},{\"option\":\"D\",\"content\":\"文件\",\"rightFlag\":\"0\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "实体",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "风险",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "创新",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "文件",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "1",
+        "name": "多项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": null,
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 153,
+      "load": true,
+      "index": 152,
+      "answerRightFlag": 2,
+      "answerScore": [
+        "A",
+        "C",
+        "D"
+      ],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185934-e2e01475-a6ba-45b1-8038-5bc18b665669",
+      "questionTypeId": "jichu3",
+      "analysis": "<br /><br />",
+      "stem": "下列关于质量的术语，描述不正确的是（）",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182144-4cb0c0d4-a57d-44dd-887f-2d8da2153cba",
+      "answer": "[{\"option\":\"A\",\"content\":\"质量是赋予特性满足要求的程序\",\"rightFlag\":\"1\"},{\"option\":\"B\",\"content\":\"质量是产品和服务的某些特定技术特性满足要求的程度\",\"rightFlag\":\"1\"},{\"option\":\"C\",\"content\":\"术语“质量”可使用形容词，如：差、好或优秀来修饰\",\"rightFlag\":\"0\"},{\"option\":\"D\",\"content\":\"质量是客体的一组固有特性满足要求的程度\",\"rightFlag\":\"0\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "质量是赋予特性满足要求的程序",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "质量是产品和服务的某些特定技术特性满足要求的程度",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "术语“质量”可使用形容词，如：差、好或优秀来修饰",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "质量是客体的一组固有特性满足要求的程度",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "1",
+        "name": "多项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": null,
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 156,
+      "load": true,
+      "index": 155,
+      "answerRightFlag": 2,
+      "answerScore": [
+        "A",
+        "C"
+      ],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185934-fe630a2c-df70-4d27-8b4a-50bd062a1eb9",
+      "questionTypeId": "jichu3",
+      "analysis": "<br /><br />",
+      "stem": "循证决策是基于（）更有可能产生期望的结果。",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "20190503182144-4cb0c0d4-a57d-44dd-887f-2d8da2153cba",
+      "answer": "[{\"option\":\"A\",\"content\":\"风险和机遇\",\"rightFlag\":\"0\"},{\"option\":\"B\",\"content\":\"数据和信息的分析\",\"rightFlag\":\"1\"},{\"option\":\"C\",\"content\":\"评价的决策\",\"rightFlag\":\"1\"},{\"option\":\"D\",\"content\":\"质量管理体系\",\"rightFlag\":\"0\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "风险和机遇",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "数据和信息的分析",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "评价的决策",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "质量管理体系",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "1",
+        "name": "多项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": null,
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 158,
+      "load": true,
+      "index": 157,
+      "answerRightFlag": 2,
+      "answerScore": [
+        "A",
+        "B"
+      ],
+      "showUserAnswer": true,
+      "openAnalysis": null,
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
+    },
+    {
+      "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
+      "id": "20190503185903-861cf286-a31b-4a2b-8bd6-4a5df729e552",
+      "questionTypeId": "jichu2",
+      "analysis": "",
+      "stem": "决定审核组的规模和组成时，应考虑（）。",
+      "stemFilePath": null,
+      "analysisFilePath": null,
+      "fraction": 1,
+      "chapterId": "1599118836514-bf5202ba-a319-42f4-8e5a-2d17fa4f494d",
+      "answer": "[{\"option\":\"A\",\"content\":\"审核的复杂程度\",\"rightFlag\":\"1\"},{\"option\":\"B\",\"content\":\"所选定的审核方法\",\"rightFlag\":\"1\"},{\"option\":\"C\",\"content\":\"审核组长的专业能力\",\"rightFlag\":\"0\"},{\"option\":\"D\",\"content\":\"法律法规要求\",\"rightFlag\":\"1\"}]",
+      "answerList": [
+        {
+          "option": "A",
+          "content": "审核的复杂程度",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "B",
+          "content": "所选定的审核方法",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "C",
+          "content": "审核组长的专业能力",
+          "rightFlag": "0",
+          "className": "",
+          "userInput": ""
+        },
+        {
+          "option": "D",
+          "content": "法律法规要求",
+          "rightFlag": "1",
+          "className": "",
+          "userInput": ""
+        }
+      ],
+      "questionType": {
+        "type": "1",
+        "name": "多项选择题"
+      },
+      "collectFlag": "",
+      "userAnswer": null,
+      "answertype": null,
+      "rightFlag": 0,
+      "logId": null,
+      "seqVal": 319,
+      "load": true,
+      "index": 113,
+      "answerRightFlag": 2,
+      "answerScore": [
+        "A",
+        "C",
         "D"
       ],
       "showUserAnswer": true,
