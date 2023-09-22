@@ -91,12 +91,12 @@
 
           <vxe-toolbar
             ref="xToolbar"
-            :refresh="{ queryMethod: reloadData }"
+            :refresh="{ queryMethod: reLoad }"
+            zoom
             print
             custom
             import
             export
-            zoom
           >
             <template #buttons>
               <!-- <vxe-button @click="getAllEvent">获取所有</vxe-button>
@@ -104,16 +104,38 @@
           <vxe-button @click="getInsertEvent">获取新增</vxe-button>
           <vxe-button @click="getRemoveEvent">获取删除</vxe-button>
           <vxe-button @click="getUpdateEvent">获取修改</vxe-button> -->
-              <el-button-group>
+          <el-tooltip class="item"   content="展开答案" placement="top-start">
+          <vxe-button  icon="vxe-icon-folder" circle  @click="expandAllEvent()"></vxe-button>
+          </el-tooltip>
+          <el-tooltip class="item"   content="关闭答案" placement="top-start">
+          <vxe-button  icon="vxe-icon-folder-open" circle @click="clearExpandEvent()"></vxe-button>
+        </el-tooltip>
+        <el-tooltip class="item"  content="显示错题" placement="top-start">
+          <vxe-button icon="vxe-icon-error-circle-fill" circle @click="showWrongs"></vxe-button>          
+        </el-tooltip>
+          <el-tooltip class="item"  content="加入错题本" placement="top-start">
+          <vxe-button icon="vxe-icon-question-circle" circle @click="addWrongs"></vxe-button>
+        </el-tooltip>
+        <el-tooltip class="item"  content="背题模式" placement="top-start">
+          <vxe-button   icon="vxe-icon-eye-fill" circle  @click="handleChangeYangshi('背题')"></vxe-button>
+        </el-tooltip>
+        <el-tooltip class="item"  content="测试模式" placement="top-start">
+          <vxe-button   icon="vxe-icon-table" circle   @click="handleChangeYangshi('测试')"></vxe-button>
+        </el-tooltip>
+          <!--<el-tooltip class="item" effect="dark" content="显示错题" placement="top-start">
+          <vxe-button status="danger" icon="vxe-icon-error-circle-fill" circle   @click="handleChangeYangshi('错题')"></vxe-button>
+        </el-tooltip>
+               <el-button-group>
                 <el-button @click="expandAllEvent()">展开</el-button>
                 <el-button @click="clearExpandEvent()">关闭</el-button>
-              </el-button-group>
+
 
               <el-button-group style="margin-left: 2px">
-                <el-button type="info" @click="showWrongs">错题</el-button>
-                <el-button type="info" @click="addWrongs">加入</el-button>
-                <el-button type="success" @click="reLoad">重置</el-button>
-                <!-- </el-button-group>
+                <el-button @click="showWrongs">错题</el-button>
+                <el-button @click="addWrongs">加入</el-button>
+                <el-button @click="reLoad">重置</el-button>
+               </el-button-group> -->              
+               <!-- </el-button-group>
 
           <el-button-group style="margin-left: 2px">
             <el-button type="danger" @click="loadWrongs">错题本</el-button>
@@ -122,16 +144,16 @@
           <el-button-group style="margin-left: 2px"> -->
                 <!-- 
             <el-button type="success" @click="readJindu">导进度</el-button>
-            <el-button type="success" @click="saveData">存进度</el-button> -->
-              </el-button-group>
-              <el-radio-group
+            <el-button type="success" @click="saveData">存进度</el-button>
+              </el-button-group> -->
+              <!-- <el-radio-group
                 v-model="moshi"
                 style="padding-left: 2px"
                 @change="handleChangeYangshi()"
               >
                 <el-radio-button label="检测"></el-radio-button>
                 <el-radio-button label="背题"></el-radio-button>
-              </el-radio-group>
+              </el-radio-group> -->
             </template>
           </vxe-toolbar>
           <el-progress :percentage="progress" :format="format"></el-progress>
@@ -593,6 +615,7 @@ export default {
     // console.log('mounted1')
     // console.log(t)
     let data = "";
+    this.nextTick()
     // let res = await this.readDataBase()
     // this.fetchData()
   },
@@ -780,7 +803,7 @@ export default {
         // _that.$refs.xTree.updateData()
         // _that.loading = false
         this.showWrong = true;
-        let url = this.tiku 
+        let url = this.tiku
         await this.searchEvent(url);
       }
     },
@@ -1019,7 +1042,7 @@ export default {
     //显示错题
     showWrongs() {
       this.showWrong = true;
-      let url = this.tiku 
+      let url = this.tiku
       this.searchEvent(url);
     },
     //重置okAnswer标志，重做
@@ -1345,14 +1368,14 @@ export default {
         });
     },
     //更改答题模式，背题和检测两种
-    async handleChangeYangshi() {
-      console.log(this.moshi);
+    async handleChangeYangshi(moshi) {
+      console.log(moshi);
       this.wrongFlag = false;
       const Obj = SearchDATATABLE._data;
       //ttt + 0
       var _timu = {};
       _timu = JSON.parse(JSON.stringify(Obj));
-      if (this.moshi == "背题") {
+      if (moshi == "背题") {
         //console.log(SearchDATATABLE._data)
         _timu.forEach((element) => {
           if (element.questionType.type == "0") {
@@ -1376,9 +1399,13 @@ export default {
         console.log(_timu);
         SearchDATATABLE._data = _timu;
       }
-      if (this.moshi == "检测") {
-        SearchDATATABLE._data = Obj;
+      if (moshi == "检测") {
+        SearchDATATABLE._data = _timu;
       }
+      if (moshi == "错题") {
+        SearchDATATABLE._data = _timu.filter((element) => {
+          element.answerRightFlag +'' == '2'
+        })}
       this.pageData()
     },
     coppyArray(arr) {
@@ -1408,7 +1435,7 @@ export default {
       if ($table) {
         // 清除所有状态
         $table.clearAll();
-        return findList();
+        return ;
       }
       return Promise.resolve();
     },
@@ -1434,7 +1461,7 @@ export default {
       if ($table && $toolbar) {
         $table.connect($toolbar);
       }
-      findList();
+      //findList();
     },
     handlePageChange({ currentPage, pageSize }) {
       this.tablePage.currentPage = currentPage;
@@ -1480,6 +1507,9 @@ export default {
 };
 </script>
 <style scoped>
+.vxe-button--icon{
+  font-size:1.8em !important;
+}
 .el-dropdown-link {
   cursor: pointer;
   color: #409eff;
