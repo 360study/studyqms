@@ -63,7 +63,7 @@
               v-model="rankValue"
               placeholder="请选择"
               clearable
-              style="width: 200px; text-align: center"
+              style="width: 140px; text-align: center"
               @change="searchEvent"
               @clear="resetEvent"
             >
@@ -91,13 +91,15 @@
 
           <vxe-toolbar
             ref="xToolbar"
-            :refresh="{ queryMethod: reLoad }"
+          
+          > 
+           <!-- :refresh="{ queryMethod: reLoad }" 暂时不用的工具条
             zoom
             print
             custom
             import
             export
-          >
+             -->
             <template #buttons>
               <!-- <vxe-button @click="getAllEvent">获取所有</vxe-button>
           <vxe-button @click="getEditRecordEvent">获取选中</vxe-button>
@@ -113,7 +115,10 @@
         <el-tooltip class="item"  content="显示错题" placement="top-start">
           <vxe-button icon="vxe-icon-error-circle-fill" circle @click="showWrongs"></vxe-button>          
         </el-tooltip>
-          <el-tooltip class="item"  content="加入错题本" placement="top-start">
+                <el-tooltip class="item"  content="刷新" placement="top-start">
+          <vxe-button icon="vxe-icon-refresh" circle @click="reLoad"></vxe-button>          
+        </el-tooltip>
+          <!-- <el-tooltip class="item"  content="加入错题本" placement="top-start">
           <vxe-button icon="vxe-icon-question-circle" circle @click="addWrongs"></vxe-button>
         </el-tooltip>
         <el-tooltip class="item"  content="背题模式" placement="top-start">
@@ -121,7 +126,7 @@
         </el-tooltip>
         <el-tooltip class="item"  content="测试模式" placement="top-start">
           <vxe-button   icon="vxe-icon-table" circle   @click="handleChangeYangshi('测试')"></vxe-button>
-        </el-tooltip>
+        </el-tooltip> -->
           <!--<el-tooltip class="item" effect="dark" content="显示错题" placement="top-start">
           <vxe-button status="danger" icon="vxe-icon-error-circle-fill" circle   @click="handleChangeYangshi('错题')"></vxe-button>
         </el-tooltip>
@@ -192,8 +197,8 @@
         :row-class-name="rowClassName"
         @edit-closed="editEvent"
       >
-        <vxe-column type="checkbox" width="60"></vxe-column>
-        <vxe-column type="seq" width="60"></vxe-column>
+        <!-- <vxe-column type="checkbox" width="60"></vxe-column> -->
+        <vxe-column type="seq" width="30"></vxe-column>
         <vxe-column title="题目">
           <template #default="{ row }">
             <span
@@ -230,7 +235,7 @@
             </span>
           </template>
         </vxe-column>
-        <vxe-column type="expand" title="Details" width="80">
+        <vxe-column type="expand" title=">" width="40">
           <template #content="{ row }">
             <!-- <ul class="expand-answer">
             <li
@@ -298,7 +303,7 @@
                 >
                   <vxe-radio-group
                     v-model="row.userAnswer"
-                    :disabled="row.okAnswer == '1' || moshi == '背题'"
+                    :disabled="row.okAnswer  || moshi == '背题'"
                   >
                     <vxe-radio-button
                       v-for="item in row.answerList"
@@ -306,7 +311,7 @@
                       :label="item.option"
                       :class="[
                         'timu',
-                        row.okAnswer == '1'
+                        row.okAnswer 
                           ? item.option == row.userAnswer
                             ? item.rightFlag == '1'
                               ? 'rightCss'
@@ -340,9 +345,9 @@
                       v-for="item in row.answerList"
                       :key="item.content"
                       :label="item.option"
-                      :disabled="row.okAnswer == '1' || moshi == '背题'"
+                      :disabled="row.okAnswer  || moshi == '背题'"
                       :class="[
-                        row.okAnswer == '1'
+                        row.okAnswer 
                           ? row.answerScore.includes(item.option)
                             ? item.rightFlag == '1'
                               ? 'AnswerRight'
@@ -371,7 +376,7 @@
                 >
                   <el-radio-group
                     v-model="row.collectFlag"
-                    :disabled="row.okAnswer == '1' || moshi == '背题'"
+                    :disabled="row.okAnswer  || moshi == '背题'"
                   >
                     <el-radio-button
                       label="0"
@@ -462,7 +467,7 @@ const QMSDATATABLE = {};
 QMSDATATABLE._data = [];
 const SearchDATATABLE = {};
 SearchDATATABLE._data = [];
-const _url_base = "http://localhost:3000/";
+const _url_base = "http://117.160.199.82:5566/";
 import { VxeTablePropTypes } from "vxe-table";
 import wangEditor from "./wangEditor";
 const days = ["天", "一", "二", "三", "四", "五", "六"]; // 星期数组
@@ -514,7 +519,7 @@ export default {
         {
           label: "题型",
           options: [
-            { value: "", label: "全部" },
+            { value: "-1", label: "全部" },
             { value: "0", label: "单项选择题" },
             { value: "1", label: "多项选择题" },
             { value: "5", label: "判断题" },
@@ -636,6 +641,19 @@ export default {
     },
   },
   methods: {
+    cellStyle ({ row, column }) {
+      if (column.title === '题目') {
+        if (row.sex >= '1') {
+          return {
+            backgroundColor: '#187'
+          }
+        } else if (row.age === 26) {
+          return {
+            backgroundColor: '#2db7f5'
+          }
+        }
+      }
+    },
     async handleCommand(command) {
       //this.$message('click on item ' + command);
       this.tiku = command;
@@ -1047,7 +1065,7 @@ export default {
     },
     //重置okAnswer标志，重做
     reAnswer(row) {
-      row.okAnswer = 0;
+      row.okAnswer = false;
       row.answerScore = [];
       row.userAnswer = "";
       row.collectFlag = "";
@@ -1115,11 +1133,11 @@ export default {
       _tempData = _DATA;
       _wTemp = _DATA
       if (this.rankValue || filterVal) {
-        typeSelect = ["5", "0", "1", ""].filter((x) =>
+        typeSelect = ["5", "0", "1", "-1"].filter((x) =>
           this.rankValue.includes(x)
         );
         console.log(typeSelect)
-        if (typeSelect.length > 0 && !typeSelect.includes(""))
+        if (typeSelect.length > 0 && !typeSelect.includes("-1"))
           _tempData = _DATA.filter((item) =>
           item.questionType ?  typeSelect.includes(item.questionType.type) : false
           );
@@ -1189,7 +1207,7 @@ export default {
       console.log("row");
       console.log(row);
       console.log(userAnswer);
-      row.okAnswer = 1;
+      row.okAnswer = true;
       let rightAnswer = row.answerList
         .filter(function (a) {
           return "1" === a.rightFlag;
@@ -1249,8 +1267,8 @@ export default {
           offset: event.pageX,
         });
       else {
-        if (row.okAnswer != "1") {
-          row.okAnswer = 1;
+        if (!row.okAnswer) {
+          row.okAnswer = ture;
           let rightAnswer = row.answerList
             .filter(function (a) {
               return "1" === a.rightFlag;
@@ -1298,7 +1316,7 @@ export default {
       let tip = "ok";
       let height = event.target.getClientRects()[0].y;
       let rightAnswer = row.answerList[0].rightFlag;
-      row.okAnswer = 1;
+      row.okAnswer = true;
       if (collectFlag === rightAnswer) {
         console.log("Right");
         row.answerRightFlag = 1;
@@ -1754,5 +1772,9 @@ li:hover {
 }
 .clearfix {
   float: left;
+}
+.vxe-cell {
+  white-space: normal !important; 
+  display:contents !important;
 }
 </style>
