@@ -2181,7 +2181,7 @@
         "name": "单项选择题"
       },
       "collectFlag": "",
-      "userAnswer": "D",
+      "userAnswer": "",
       "answertype": null,
       "rightFlag": 0,
       "logId": null,
@@ -2192,7 +2192,7 @@
       "answerScore": [],
       "showUserAnswer": true,
       "openAnalysis": null,
-      "okAnswer": 1,
+      "okAnswer": 0,
       "children": [],
       "_X_ROW_CHILD": []
     },
@@ -45514,18 +45514,20 @@
         "name": "单项选择题"
       },
       "collectFlag": "",
-      "userAnswer": "A",
+      "userAnswer": "D",
       "answertype": null,
       "rightFlag": 0,
       "logId": "81624964168488583168",
       "seqVal": 18,
       "load": true,
       "index": 17,
-      "answerRightFlag": 0,
+      "answerRightFlag": 2,
       "answerScore": [],
       "showUserAnswer": true,
       "openAnalysis": "A",
-      "okAnswer": true
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
     },
     {
       "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
@@ -45715,7 +45717,7 @@
       "id": "20190503185943-ac942c9f-9337-4c5d-b6e6-0e24ee56b164",
       "questionTypeId": "jichu4",
       "analysis": "",
-      "stem": "根据《标准化法》，（）是强制性标准。<b/>",
+      "stem": "根据《标准化法》，（）是强制性标准。",
       "stemFilePath": null,
       "analysisFilePath": null,
       "fraction": 1,
@@ -45767,14 +45769,16 @@
       "answerScore": [],
       "showUserAnswer": true,
       "openAnalysis": "C",
-      "okAnswer": true
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
     },
     {
       "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
       "id": "20190503185943-26d1afe4-cfac-44d8-a306-3e254109f393",
       "questionTypeId": "jichu4",
       "analysis": "",
-      "stem": "国家法定计量单位的名称、符号由（）公布。<b/>",
+      "stem": "国家法定计量单位的名称、符号由（）公布。",
       "stemFilePath": null,
       "analysisFilePath": null,
       "fraction": 1,
@@ -45826,7 +45830,9 @@
       "answerScore": [],
       "showUserAnswer": true,
       "openAnalysis": "A",
-      "okAnswer": true
+      "okAnswer": 1,
+      "children": [],
+      "_X_ROW_CHILD": []
     },
     {
       "categoryId": "20190503161710-15fd50be-2be2-4bbc-a0c3-1803931fa19d",
@@ -54054,7 +54060,7 @@
         "name": "判断题"
       },
       "collectFlag": "0",
-      "userAnswer": null,
+      "userAnswer": "",
       "answertype": null,
       "rightFlag": 0,
       "logId": null,
@@ -54122,16 +54128,13 @@
       "seqVal": 9,
       "load": true,
       "index": 8,
-      "answerRightFlag": 0,
+      "answerRightFlag": 1,
       "answerScore": [],
       "showUserAnswer": true,
       "openAnalysis": "D",
-      "okAnswer": true,
+      "okAnswer": 1,
       "children": [],
       "_X_ROW_CHILD": []
-    },
-    {
-      "id": "bQKqUCz"
     }
   ],
   "wrongs": [
